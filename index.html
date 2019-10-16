@@ -9,6 +9,14 @@ body {
 
 div.center {
   text-align: center;
+  height: 500px;
+}
+
+div.vcenter {
+  height: 0px;
+  position: relative;
+  top: 50%;
+  transform: 			translateY(-50%);
 }
 
 .logo {
@@ -21,7 +29,9 @@ div.center {
 </head>
 <body>
 <div class="center">
-<div class="logo">isosurface</div>
+  <div class="vcenter">
+    <div class="logo">isosurface</div>
+  </div>
 </div>
 </body>
 </html>
